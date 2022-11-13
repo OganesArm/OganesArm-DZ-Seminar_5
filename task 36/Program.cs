@@ -14,11 +14,11 @@ int[] GetArray(int size, int minValue, int maxValue)
     }
     return res;
 }
-int[] Array = GetArray(10, 0, 10);
+int[] Array = GetArray(4, 0, 4);
 
 Console.WriteLine();
 int res = 0;
-for (int i = 0; i < Array.Length; i += 2)
+for (int i = 1; i < Array.Length; i += 2)
 {
     res = res + Array[i];
 }
